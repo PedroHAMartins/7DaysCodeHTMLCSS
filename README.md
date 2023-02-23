@@ -7,11 +7,17 @@ The challenge focus on developing a website based on the figma prototype. Each d
 Here is the roadmap:
 
 Day 1: Navbar
+<br/>
 Day 2: Not yet released
+<br/>
 Day 3: Not yet released
+<br/>
 Day 4: Not yet released
+<br/>
 Day 5: Not yet released
+<br/>
 Day 6: Not yet released
+<br/>
 Day 7: Not yet released
 
 
