@@ -8,7 +8,11 @@ Here is the roadmap:
 
 Day 1: Navbar
 <br/>
+<img src="files/images/progress/day1.png" alt="" srcset="" class="nav-logo">
+<br/>
 Day 2: Header
+<br/>
+<img src="files/images/progress/day2.png" alt="" srcset="" class="nav-logo">
 <br/>
 Day 3: Not yet released
 <br/>
