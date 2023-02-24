@@ -29,8 +29,12 @@
 }
 .nav-menu-items{
     display: inline-flex;
-    color: var(--color-1);
     margin-right: 32px;
+}
+
+.nav-menu-items-links, .nav-menu-items-links:visited{
+    color: var(--color-1);
+    text-decoration: none;
 }
 
 .nav-buttons{
@@ -58,4 +62,37 @@
     cursor: pointer;
     padding: 10px 18px;
     border-radius: 8px;
+}
+
+.header-aboutus{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /* margin: 96px 324px; */
+    margin: 5% 0;
+    font-family: var(--font-inter);
+}
+
+.header-aboutus-title{
+    color: var(--color-2);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+.header-aboutus-subtitle{
+    color: black;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+}
+
+.header-aboutus-text{
+    color: var(--color-1);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+    line-height: 30px;
+    padding: 0 28%;
 }
