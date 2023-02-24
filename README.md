@@ -8,7 +8,7 @@ Here is the roadmap:
 
 Day 1: Navbar
 <br/>
-Day 2: Not yet released
+Day 2: Header
 <br/>
 Day 3: Not yet released
 <br/>
