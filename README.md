@@ -8,13 +8,15 @@ Here is the roadmap:
 
 Day 1: Navbar
 <br/>
-<img src="files/images/progress/day1.png" alt="" srcset="" class="nav-logo">
+<img src="files/images/progress/day1.png" alt="" srcset="">
 <br/>
 Day 2: Header
 <br/>
-<img src="files/images/progress/day2.png" alt="" srcset="" class="nav-logo">
+<img src="files/images/progress/day2.png" alt="" srcset="">
 <br/>
-Day 3: Not yet released
+Day 3: Metrics
+<br/>
+<img src="files/images/progress/day3.png" alt="" srcset="">
 <br/>
 Day 4: Not yet released
 <br/>

@@ -20,7 +20,7 @@
     justify-content: space-around;
     font-family: var(--font-inter);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .nav-menu{
@@ -46,7 +46,7 @@
 .nav-buttons-login{
     font-family: var(--font-inter);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
     color: var(--color-1);
     border: none;
     background-color: transparent;
@@ -57,7 +57,7 @@
 .nav-buttons-register{
     font-family: var(--font-inter);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
     color: var(--color-white);
     border: none;
     background-color: var(--color-2);
@@ -78,23 +78,62 @@
 .header-aboutus-title{
     color: var(--color-2);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1em;
     margin-bottom: 2%;
 }
 
 .header-aboutus-subtitle{
     color: var(--color-black);
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3em;
     letter-spacing: -0.02em;
 }
 
 .header-aboutus-text{
     color: var(--color-1);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     text-align: center;
     margin-top: 2%;
     line-height: 30px;
     padding: 0 28%;
 }
+
+.metrics{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 5% 8%;
+    gap: 2em;
+}
+
+.metrics-cards{
+    width: 17.5em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    font-family: var(--font-inter);
+}
+
+.metrics-cards-value{
+    font-weight: 600;
+    font-size: 3.75em;
+    letter-spacing: -0.02em;
+    color: var(--color-2);
+    margin-bottom: 12px;
+}
+
+.metrics-cards-title{
+    font-weight: 500;
+    font-size: 1.125em;
+    color: var(--color-black);
+    margin-bottom: 8px;
+}
+
+.metrics-cards-text{
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--color-1);
+    line-height: 24px;
+}
+
