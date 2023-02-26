@@ -3,6 +3,7 @@
 :root{
     --color-1: #667085;
     --color-2: #8E2424;
+    --color-2-background: #8e24240d;
     --color-white: #FFFFFF;
     --color-black: #000000;
     --font-inter: 'Inter', sans-serif;
@@ -135,5 +136,45 @@
     font-size: 1em;
     color: var(--color-1);
     line-height: 24px;
+}
+
+.jobs{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 12.25em 0;
+}
+
+.jobs-text{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: var(--font-inter);
+}
+
+.jobs-image{
+    width: 87%;
+}
+
+.jobs-text-header{
+    color: var(--color-2);
+    background-color: #8e24240d;
+    border-radius: 1em;
+    padding: 0.25em 0.75em;
+    margin-bottom: 1em;
+}
+
+.jobs-text-title{
+    color: var(--color-black);
+    font-weight: 600;
+    font-size: 2.25em;
+    margin-bottom: 1em;
+}
+
+.jobs-text-description{
+    color: var(--color-1);
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-bottom: 4em;
 }
 
