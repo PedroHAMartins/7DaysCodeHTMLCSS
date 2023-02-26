@@ -1,4 +1,4 @@
-#7DaysCodeHTMLCSS
+# 7DaysCodeHTMLCSS
 
 Repository for the 7 days code challenge in HTML and CSS proposed by Giovanna Moeller from Girl Coding.
 
