@@ -186,8 +186,8 @@
     .nav{
         flex-wrap: wrap;
         margin: 5% 0;
-        gap: 30px;
         padding-bottom: 10%;
+        gap: 30px;
     }
     .nav-menu{
         order: 3;
@@ -195,7 +195,9 @@
         justify-content: space-between;
         width: 100%;
     }
+
     .nav-menu-items{
+        margin-right: 0px;
     }
     .nav-buttons{
         text-align: center;
