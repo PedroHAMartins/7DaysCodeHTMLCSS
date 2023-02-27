@@ -178,3 +178,43 @@
     margin-bottom: 4em;
 }
 
+@media (max-width: 480px) {
+    /* .nav{
+        background-color: red;
+        justify-content: space-between;
+        height: 100px;
+        justify-content: center;
+    } */
+    .nav-menu{
+        text-align: center;
+        justify-content: center;
+        line-height: 120%;
+    }
+    .nav-buttons{
+        text-align: center;
+    }
+    /*
+    .nav-logo{
+        background-color: yellow;
+    } */
+    .header-aboutus-title{
+        margin: 10% 0%;
+    }
+    .header-aboutus-subtitle{
+        text-align: center;
+    }
+    .header-aboutus-text{
+        text-align: center;
+        padding: 0 5%;
+        margin: 10% 0;
+    }
+    .metrics-cards{
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .jobs{
+        text-align: center;
+        margin: 0 5%;
+    }
+}
