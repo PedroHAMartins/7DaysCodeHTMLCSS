@@ -22,7 +22,9 @@ Day 4: Jobs header
 <br/>
 <img src="files/images/progress/day4.png" alt="" srcset="">
 <br/>
-Day 5: Not yet released
+Day 5: Jobs opportunities
+<br/>
+<img src="files/images/progress/day5.png" alt="" srcset="">
 <br/>
 Day 6: Not yet released
 <br/>
