@@ -26,7 +26,9 @@ Day 5: Jobs opportunities
 <br/>
 <img src="files/images/progress/day5.png" alt="" srcset="">
 <br/>
-Day 6: Not yet released
+Day 6: Feedbacks
+<br/>
+<img src="files/images/progress/day6.png" alt="" srcset="">
 <br/>
 Day 7: Not yet released
 
