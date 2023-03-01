@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root{
     --color-1: #667085;
     --color-2: #8E2424;
     --color-2-background: #8e24240d;
-    --backgroung-2: #c4191908;
+    --background-2: #c4191908;
+    --background-footer: #F9FAFB;
     --color-3: #101828;
     --color-box-border: #EAECF0;
     --color-white: #FFFFFF;
     --color-black: #000000;
+    --color-footer-box-border: #D0D5DD;
+    --color-footer-box-shadow: #1018280d;
     --font-inter: 'Inter', sans-serif;
 }
 
@@ -239,7 +242,7 @@
     align-items: center;
     font-family: var(--font-inter);
     font-weight: 500;
-    background-color: var(--backgroung-2);
+    background-color: var(--background-2);
     border-radius: 1em;
     padding: 4em;
 }
@@ -268,6 +271,72 @@
     font-weight: 400;
     font-size: 0.875em;
     color: var(--color-1);
+}
+
+.footer{
+    width: 100%;
+    background-color: var(--background-footer);
+    font-family: var(--font-inter);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6em 19em 2em 19em;
+    width: 60%;
+}
+
+.footer-title{
+    font-size: 2.25em;
+    letter-spacing: -0.02em;
+    font-weight: 600;  
+    color: var(--color-black);
+}
+
+.footer-text{
+    font-size: 1.25em;
+    color: var(--color-1);
+    margin: 2em 0;
+}
+
+.footer-button{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-input-box{
+    font-size: 1em;
+    color: var(--color-1);
+    border-radius: 0.5em;
+    border: 1px solid var(--color-footer-box-border);
+    box-shadow: 0px 1px 2px var(--color-footer-box-shadow);
+    font-family: var(--font-inter);
+    padding: 0.75em 0.75em;
+    width: 30%;
+    margin-right: 1em;
+}
+
+.footer-input-button{
+    font-size: 1em;
+    color: var(--color-white);
+    border-radius: 0.5em;
+    background-color: var(--color-2);
+    border: 1px solid var(--color-2);
+    box-shadow: 0px 1px 2px var(--color-footer-box-shadow);
+    font-family: var(--font-inter);
+    padding: 0.75em 1em;
+
+}
+
+.footer-copyright{
+    font-size: 1em;
+    color: var(--color-1);
+    margin-bottom: 6em;
 }
 
 @media (max-width: 850px) {
@@ -334,5 +403,22 @@
     }
     .feedbacks-text{
         font-size: 1.5em;
+    }
+    .footer{
+
+    }
+    .footer-container{
+        width: 90%;
+        margin: 3em 2em;
+        text-align: center;
+    }
+    .footer-title{
+        font-size: 1.5em;
+    }
+    .footer-text{
+        font-size: 1em;
+    }
+    .footer-copyright{
+        text-align: center;
     }
 }
