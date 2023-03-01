@@ -30,7 +30,9 @@ Day 6: Feedbacks
 <br/>
 <img src="files/images/progress/day6.png" alt="" srcset="">
 <br/>
-Day 7: Not yet released
+Day 7: Footer
+<br/>
+<img src="files/images/progress/day7.png" alt="" srcset="">
 
 
 #7DaysCodeHTMLCSS
